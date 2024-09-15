@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65d3ddec-a332-4f07-94f0-11645431641e" name="Changes" comment="Insertion sort working. Test case creation remaining.">
-      <change afterPath="$PROJECT_DIR$/Algorithms/Sort/BucketSort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/Sort/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Sort/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/__init__.py" afterDir="false" />
+    <list default="true" id="65d3ddec-a332-4f07-94f0-11645431641e" name="Changes" comment="Bucket sort Working">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,14 +142,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726393571494</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Bucket sort Working">
+      <option name="closed" value="true" />
+      <created>1726397275291</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726397275291</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project Initial Comment" />
     <MESSAGE value="Setup project structure" />
     <MESSAGE value="Insertion sort working. Test case creation remaining." />
-    <option name="LAST_COMMIT_MESSAGE" value="Insertion sort working. Test case creation remaining." />
+    <MESSAGE value="Bucket sort Working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bucket sort Working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
