@@ -8,6 +8,13 @@ def main():
     # insertionSort.Sort(testList)
     # print(testList)
 
+    # Bucket Sort
+    bucketSort = Algorithms.BucketSort()
+    testList = [0.897, 0.565, 0.656, 0.1234, 0.665, 0.3434]
+    bucketSort.Sort(testList)
+    print(testList)
+    pass
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     main()

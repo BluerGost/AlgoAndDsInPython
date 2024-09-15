@@ -1,1 +1,1 @@
-from .Sort import InsertionSort
+from .Sort import *
