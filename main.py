@@ -1,6 +1,6 @@
 import agorithms
 import problemsolving
-
+from problemsolving.neetcode150.products_of_array_discluding_self import ProductsOfArrayDiscludingSelf
 
 def main():
 
@@ -8,7 +8,7 @@ def main():
     test_data = [1 , 2, 4, 6]
     test_data2 = [-1, 0, 1, 2, 3]
     test_data3 = [0,0]
-    obj = problemsolving.ProductsOfArrayDiscludingSelf()
+    obj = ProductsOfArrayDiscludingSelf()
     print(obj.products_of_array_discluding_self_1(test_data3))
 
 # Press the green button in the gutter to run the script.

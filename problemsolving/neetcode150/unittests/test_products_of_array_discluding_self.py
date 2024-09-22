@@ -1,5 +1,5 @@
 import unittest
-from products_of_array_discluding_self import ProductsOfArrayDiscludingSelf
+from ..products_of_array_discluding_self import ProductsOfArrayDiscludingSelf
 
 class TestProductsOfArrayDiscludingSelf(unittest.TestCase):
 
