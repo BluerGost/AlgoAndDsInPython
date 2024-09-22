@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65d3ddec-a332-4f07-94f0-11645431641e" name="Changes" comment="Completed StringEncodeAndDecode by myself">
-      <change afterPath="$PROJECT_DIR$/agorithms/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agorithms/uncategorized/PrefixSumArray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemsolving/neetcode150/products_of_array_discluding_self.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemsolving/neetcode150/string_encode_and_decode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemsolving/neetcode150/test_products_of_array_discluding_self.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AlgoAndDsInPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AlgoAndDsInPython.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/Sort/BucketSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/agorithms/sort/bucket_sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/Sort/InsertionSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/agorithms/sort/insertion_sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/Sort/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProblemSolving/NeetCode150/StringEncodeAndDecode.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProblemSolving/NeetCode150/TopKFrequentElements.py" beforeDir="false" afterPath="$PROJECT_DIR$/problemsolving/neetcode150/top_k_frequent_elements.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProblemSolving/NeetCode150/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProblemSolving/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/problemsolving/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="65d3ddec-a332-4f07-94f0-11645431641e" name="Changes" comment="Changed the names according to the naming convention. Made the program structure simpler.">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726398266062</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Changed the names according to the naming convention. Made the program structure simpler.">
+      <option name="closed" value="true" />
+      <created>1727018109909</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727018109909</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -243,7 +235,8 @@
     <MESSAGE value="Insertion sort working. Test case creation remaining." />
     <MESSAGE value="Bucket sort Working" />
     <MESSAGE value="commented out the bucketsort call code" />
-    <option name="LAST_COMMIT_MESSAGE" value="commented out the bucketsort call code" />
+    <MESSAGE value="Changed the names according to the naming convention. Made the program structure simpler." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed the names according to the naming convention. Made the program structure simpler." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
