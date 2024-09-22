@@ -1,34 +1,15 @@
-import Algorithms
-import ProblemSolving
+import agorithms
+import problemsolving
 
 
 def main():
 
-    # # Insersion Sort
-    # insertionSort = Algorithms.InsertionSort()
-    # testList = [5, 6 ,1, 4, -1, -3, 6, 10]
-    # insertionSort.Sort(testList)
-    # print(testList)
-
-    # # Bucket Sort
-    # bucketSort = Algorithms.BucketSort()
-    # testList = [0.897, 0.565, 0.656, 0.1234, 0.665, 0.3434]
-    # bucketSort.Sort(testList)
-    # print(testList)
-
-    # # Top K Frequenent Elements
-    # topKFrequentElements = ProblemSolving.TopKFrequentElements()
-    # testList = [1,2,2,3,3,3]
-    # print(topKFrequentElements.Run(testList, 2))
-
-    # String Encode and Decode
-    # testData1 = ["neet","code","love","you"]
-    # testData2 = []
-    testData3 = [""]
-
-    strEncodeAndDecode = ProblemSolving.StringEncodeAndDecode()
-    result = strEncodeAndDecode.Run(testData3)
-    print(result)
+    # Product of Array Discluding Self
+    test_data = [1 , 2, 4, 6]
+    test_data2 = [-1, 0, 1, 2, 3]
+    test_data3 = [0,0]
+    obj = problemsolving.ProductsOfArrayDiscludingSelf()
+    print(obj.products_of_array_discluding_self_1(test_data3))
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':

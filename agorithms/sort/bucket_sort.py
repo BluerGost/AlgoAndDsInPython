@@ -2,7 +2,7 @@ class BucketSort:
     def __init__(self):
         pass
 
-    def InsertSort(self, nums: list[float]) -> list[float]:
+    def insert_sort(self, nums: list[float]) -> list[float]:
         numsLen = len(nums)
 
         for currIndex in range(1, numsLen):
@@ -15,7 +15,7 @@ class BucketSort:
 
             nums[prevIndex + 1] = currValue
 
-    def Sort(self, nums:list[float]) -> list[float]:
+    def sort(self, nums:list[float]) -> list[float]:
 
         numLen = len(nums)
         buckets = [[] for _ in range(numLen)]
@@ -28,7 +28,7 @@ class BucketSort:
 
         # Step-2, Sort the individual buckets
         for bucket in buckets:
-            self.InsertSort(bucket)
+            self.insert_sort(bucket)
 
         # Step-3, Merge the sorted buckets into a single list
         numsIndex = 0

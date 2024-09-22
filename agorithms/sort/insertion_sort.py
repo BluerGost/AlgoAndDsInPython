@@ -2,7 +2,7 @@ class InsertionSort:
     def __init__(self):
         pass
 
-    def Sort(self, nums:list[float]) -> list[float]:
+    def sort(self, nums:list[float]) -> list[float]:
         numsLen = len(nums)
 
         for currIndex in range(1, numsLen):
