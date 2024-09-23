@@ -25,3 +25,17 @@ class ProductsOfArrayDiscludingSelf:
             res.append(left * right)
 
         return res
+
+    def products_of_array_discluding_self_2(self, nums: list[int]) -> list[int]:
+
+        res = [1]
+        for i in range(len(nums) - 1):
+            res.append(res[i] * nums[i])
+        print(res)
+        postfix = 1
+        for i in range(len(nums) - 1, -1, -1):
+            res[i] = res[i] * postfix
+            postfix = postfix * nums[i]
+
+        return res
+
