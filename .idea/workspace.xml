@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65d3ddec-a332-4f07-94f0-11645431641e" name="Changes" comment="two sum 1 and 2 from leetcode">
-      <change afterPath="$PROJECT_DIR$/problemsolving/leetcode/unittest/test_two_sum_II_167.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemsolving/neetcode150/buy_and_sell_crypto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemsolving/neetcode150/class three_sums.py" afterDir="false" />
+    <list default="true" id="65d3ddec-a332-4f07-94f0-11645431641e" name="Changes" comment="buy and sell crypto O(n*n) and O(n) solution">
+      <change afterPath="$PROJECT_DIR$/problemsolving/neetcode150/longest_substring_without_duplicates.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problemsolving/leetcode/two_sum_II_167.py" beforeDir="false" afterPath="$PROJECT_DIR$/problemsolving/leetcode/two_sum_II_167.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727263382778</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="buy and sell crypto O(n*n) and O(n) solution">
+      <option name="closed" value="true" />
+      <created>1728112512111</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728112512111</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -294,7 +299,8 @@
     <MESSAGE value="changed the structure" />
     <MESSAGE value="Is palindrome solutions done" />
     <MESSAGE value="two sum 1 and 2 from leetcode" />
-    <option name="LAST_COMMIT_MESSAGE" value="two sum 1 and 2 from leetcode" />
+    <MESSAGE value="buy and sell crypto O(n*n) and O(n) solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="buy and sell crypto O(n*n) and O(n) solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
