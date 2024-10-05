@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65d3ddec-a332-4f07-94f0-11645431641e" name="Changes" comment="Is palindrome solutions done">
-      <change afterPath="$PROJECT_DIR$/problemsolving/leetcode/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemsolving/leetcode/two_sum_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemsolving/leetcode/two_sum_II_167.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemsolving/leetcode/unittest/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemsolving/leetcode/unittest/test_two_sum_1.py" afterDir="false" />
+    <list default="true" id="65d3ddec-a332-4f07-94f0-11645431641e" name="Changes" comment="two sum 1 and 2 from leetcode">
+      <change afterPath="$PROJECT_DIR$/problemsolving/leetcode/unittest/test_two_sum_II_167.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problemsolving/neetcode150/buy_and_sell_crypto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problemsolving/neetcode150/class three_sums.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problemsolving/leetcode/two_sum_II_167.py" beforeDir="false" afterPath="$PROJECT_DIR$/problemsolving/leetcode/two_sum_II_167.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,35 +47,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for TestProductsOfArrayDiscludingSelf.TestProductsOfArrayDiscludingSelf.test_products_of_array_discluding_self_1.executor": "Run",
-    "Python tests.Python tests for leetcode.unittest.test_two_sum_1.TestTwoSum.test_sol1.executor": "Run",
-    "Python tests.Python tests for neetcode150.unittests.test_is_palindrome.TestIsPalindrome.test_sol1.executor": "Run",
-    "Python tests.Python tests for neetcode150.unittests.test_is_palindrome.TestIsPalindrome.test_sol2.executor": "Run",
-    "Python tests.Python tests for neetcode150.unittests.test_longest_consecutive_sequence.TestLongestConsecutiveSequence.test_sol1.executor": "Run",
-    "Python tests.Python tests for neetcode150.unittests.test_products_of_array_discluding_self.TestProductsOfArrayDiscludingSelf.test_products_of_array_discluding_self_1.executor": "Run",
-    "Python tests.Python tests for neetcode150.unittests.test_products_of_array_discluding_self.TestProductsOfArrayDiscludingSelf.test_products_of_array_discluding_self_2.executor": "Run",
-    "Python tests.Python tests in TestProductsOfArrayDiscludingSelf.py.executor": "Run",
-    "Python tests.Python tests in test_longest_consecutive_sequence.py.executor": "Run",
-    "Python tests.Python tests in test_products_of_array_discluding_self.py.executor": "Run",
-    "Python tests.Python tests in unittests.executor": "Run",
-    "Python.InsertionSort.executor": "Run",
-    "Python.StringEncodeAndDecode.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/kevinstephenbiswas/Documents/StudyRelated/DevelopmentRelated/Repository/AlgoAndDsInPython",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for TestProductsOfArrayDiscludingSelf.TestProductsOfArrayDiscludingSelf.test_products_of_array_discluding_self_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for leetcode.unittest.test_two_sum_1.TestTwoSum.test_sol1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for leetcode.unittest.test_two_sum_II_167.TestTwoSum.test_sol2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for neetcode150.unittests.test_is_palindrome.TestIsPalindrome.test_sol1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for neetcode150.unittests.test_is_palindrome.TestIsPalindrome.test_sol2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for neetcode150.unittests.test_longest_consecutive_sequence.TestLongestConsecutiveSequence.test_sol1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for neetcode150.unittests.test_products_of_array_discluding_self.TestProductsOfArrayDiscludingSelf.test_products_of_array_discluding_self_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for neetcode150.unittests.test_products_of_array_discluding_self.TestProductsOfArrayDiscludingSelf.test_products_of_array_discluding_self_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in TestProductsOfArrayDiscludingSelf.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_longest_consecutive_sequence.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_products_of_array_discluding_self.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in unittests.executor&quot;: &quot;Run&quot;,
+    &quot;Python.InsertionSort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.StringEncodeAndDecode.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kevinstephenbiswas/Documents/StudyRelated/DevelopmentRelated/Repository/AlgoAndDsInPython&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/problemsolving/neetcode150" />
       <recent name="$PROJECT_DIR$/problemsolving/neetcode150/unittests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for leetcode.unittest.test_two_sum_1.TestTwoSum.test_sol1">
+  <component name="RunManager" selected="Python tests.Python tests for leetcode.unittest.test_two_sum_II_167.TestTwoSum.test_sol2">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="AlgoAndDsInPython" />
       <option name="ENV_FILES" value="" />
@@ -111,6 +111,21 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;leetcode.unittest.test_two_sum_1.TestTwoSum.test_sol1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for leetcode.unittest.test_two_sum_II_167.TestTwoSum.test_sol2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="AlgoAndDsInPython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problemsolving" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;leetcode.unittest.test_two_sum_II_167.TestTwoSum.test_sol2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -159,28 +174,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_longest_consecutive_sequence.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="AlgoAndDsInPython" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problemsolving" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/problemsolving/neetcode150/unittests/test_longest_consecutive_sequence.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for leetcode.unittest.test_two_sum_II_167.TestTwoSum.test_sol2" />
         <item itemvalue="Python tests.Python tests for leetcode.unittest.test_two_sum_1.TestTwoSum.test_sol1" />
         <item itemvalue="Python tests.Python tests for neetcode150.unittests.test_is_palindrome.TestIsPalindrome.test_sol2" />
         <item itemvalue="Python tests.Python tests for neetcode150.unittests.test_is_palindrome.TestIsPalindrome.test_sol1" />
         <item itemvalue="Python tests.Python tests for neetcode150.unittests.test_longest_consecutive_sequence.TestLongestConsecutiveSequence.test_sol1" />
-        <item itemvalue="Python tests.Python tests in test_longest_consecutive_sequence.py" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727080393188</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="two sum 1 and 2 from leetcode">
+      <option name="closed" value="true" />
+      <created>1727263382778</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727263382778</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -285,7 +293,8 @@
     <MESSAGE value="Added README.md file" />
     <MESSAGE value="changed the structure" />
     <MESSAGE value="Is palindrome solutions done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Is palindrome solutions done" />
+    <MESSAGE value="two sum 1 and 2 from leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="two sum 1 and 2 from leetcode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
